@@ -85,3 +85,9 @@ upload to db
                 url, data=json.dumps(data, sort_keys=True),
                 headers=self._headers)
 ```
+
+example:
+
+|    ID   |	        Pod            |  Project |	   Test Case   | Installer | Version |        Scenario         | Criteria | 	Build tag |
+|---------|------------------------|----------|----------------|-----------|---------|-------------------------|----------|------------|
+|0e799ea4 |	onap_openlab-OPNFV-oom | functest |	clearwater_ims |	oom    |  master | os-nosdn-nofeature-noha |   PASS   |	gitlab_ci-functest-kubespray-baremetal-daily-master-3693589
